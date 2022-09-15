@@ -169,6 +169,10 @@ button {
   margin-bottom: 30px;
 }
 
+.card>h3 {
+  margin-bottom: 12px;
+}
+
 #modal-background {
   background: rgb(255, 255, 255);
   background: linear-gradient(92.49deg,
