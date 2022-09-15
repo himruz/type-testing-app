@@ -59,7 +59,7 @@ const validate = (key) => {
     return true;
   } else {
     errorCount++;
-    return false;
+    // return false;
   }
 
 };
@@ -103,6 +103,8 @@ const closeModal = () => {
 };
 
 const start = () => {
+  // clear countdonw
+  countdownOverlay.innerHTML = "";
   // If already started, do not start again
   if (startTime) return;
 
