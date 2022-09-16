@@ -185,6 +185,21 @@ button {
   top: 0;
 }
 
+section.blog {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+h2.blog-title {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.blog-btn {
+  width: 92%;
+}
 
 @media (max-width: 767px) {
   .box-container {
